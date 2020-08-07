@@ -1,18 +1,18 @@
 {
-  "name": "1y",
-  "description": "A short URL manager",
+  "name": "lnk",
+  "description": "A short URL manager based on 1y",
   "version": "1.0.0",
   "author": {
-    "name": "Nicolas Hoizey",
-    "email": "nicolas@hoizey.com",
-    "url": "https://nicolas-hoizey.com/",
-    "twitter": "nhoizey",
-    "github": "nhoizey"
+    "name": "Ajit Panigrahi",
+    "email": "hello@ajitpanigrahi.com",
+    "url": "https://ajitpanigrahi.com/",
+    "twitter": "ajitzero",
+    "github": "ajitzero"
   },
   "license": "MIT",
   "scripts": {
-    "start": "rimraf _site && eleventy --serve",
-    "build": "rimraf _site && eleventy"
+    "start": "eleventy --serve",
+    "build": "DEBUG=* eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
