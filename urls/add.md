@@ -1,3 +1,3 @@
 ---
-url: https://github.com/AjitZero/lnk/new/cleanup/urls
+url: https://github.com/AjitZero/lnk/new/master/urls
 ---
